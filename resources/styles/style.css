@@ -1,0 +1,193 @@
+body {
+         background-color: #059dcf;
+         background-size: 100%;
+         margin: 0px;
+}
+
+@font-face {
+    font-family: Neighbor; 
+    src: url(/resources/fonts/Neighbor.ttf); 
+}
+
+.header {
+     position: relative;
+     background: url(/resources/img/header1.png) repeat-x;
+     width: 100%;
+     height: 240px;
+     text-align: center;
+     margin:0px 0px 0px 0px;
+}
+
+.backhead {
+     background-color: rgba(36,154,255,0.7);
+     height: auto;
+     padding:0 10px 10px 10px; 
+     position: absolute;
+     top: 50%;
+     margin: -50px 0 0 0;
+}
+
+.title {
+     margin:0;
+     color: white;
+     font: 48pt Neighbor;
+} 
+
+.subtitle {
+     margin:0;
+     color: white;
+     font: 18pt Neighbor;
+} 
+
+.container {
+     width: 100%;
+     min-height: 100%;
+     height: auto;
+}
+ 
+ .main-text{
+    color: white;
+    font-size: 24pt;
+    text-align: center;
+ }
+ 
+.info {
+	padding: 20px;
+	background: rgba(0,100,150,0.7);
+}
+
+.text-title{
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+.info-text{
+	padding-left: 10px;
+	color: white;
+	font-size: 16pt;
+}
+
+.sidebar {
+     margin: 10px 0 0 0;
+     float: left;
+     width: 20%;
+     height: auto;
+}
+
+.sidebar-cont{
+     width:100%;
+     height:auto;
+}
+
+.sidebar-cont ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.sidebar-cont ul li a{
+     display:block;
+     font-size:13px;
+     font-weight:bold;
+     color:white;
+     padding:10px 15px;
+     background: linear-gradient(180deg, #2c3337, #007fff);
+     text-decoration:none;
+     margin-bottom: 10px; 
+}
+
+.sidebar-cont ul li a:hover, #sidebar-cont ul li:hover a{
+     background: linear-gradient(180deg, #007fff, #05ff97);
+}
+
+.content {
+	padding-top: 10px;
+     float: right;
+     width: 79%;
+     padding-bottom: 60px;   
+}
+
+.main-content{
+    background: #0047ab;
+    height: 100%;
+    margin: 0 10px 0 0;
+}
+ 
+
+.good-photo{
+    height: 150px;
+}
+
+.goods {
+    width:100%;
+    float: left;
+    border-spacing: 10px 10px; 
+}
+
+.goods tr{
+    background:linear-gradient(90deg, #002633, #00bfff);
+
+}
+
+.goods tr:hover td {
+    padding: 10px;
+    font-size:20px;
+    color: white;
+    border: solid 2px yellow;
+}
+
+.goods tr td, .goods tr th{
+    padding: 10px;
+    font-size:20px;
+    color: white;
+    font-weight: normal;
+    border: 2px solid transparent;
+}
+
+.clear {
+     clear: both;
+}
+
+.map{
+	width: 60%;
+	border: 2px solid yellow;
+}
+ 
+.footer {
+	height: 60px;
+    background:radial-gradient(60% 100% at top, #00bfff, #000000);
+    position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+
+}
+
+.footer-text {
+    color:white;
+    text-align: center;
+    width: 100%;
+}
+
+.text-left {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.text-left li {
+  /*border: 1px solid #ddd;*/
+  margin-top: -1px;
+  /*background-color: #f6f6f6;*/
+  padding: 12px;
+  color: white;
+  font-size:20px;
+
+}
+
+a {
+    color: #FFF;
+    text-decoration: none;
+
+}

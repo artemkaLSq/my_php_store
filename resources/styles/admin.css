@@ -1,0 +1,292 @@
+body {
+         background-color: gray;
+         margin: 0px;
+}
+
+.backhead {
+     background-color: rgba(36,154,255,0.7);
+     height: auto;
+     padding:0 10px 10px 10px; 
+     position: absolute;
+     top: 50%;
+     margin: -50px 0 0 0;
+}
+
+.title {
+     margin:0;
+     color: white;
+     font: 48pt Neighbor;
+} 
+
+.subtitle {
+     margin:0;
+     color: white;
+     font: 18pt Neighbor;
+} 
+
+.container {
+     width: 100%;
+     min-height: 100%;
+     height: auto;
+}
+
+.text-title{
+	color: white;
+	font-weight: bold;
+	font-size: 20pt;
+}
+
+.info-text{
+	padding-left: 10px;
+	color: white;
+	font-size: 16pt;
+}
+
+.sidebar {
+     margin: 0 0 0 0;
+     float: left;
+     width: 20%;
+     height: 654px;
+     background-color: #002137;
+}
+
+.sidebar-cont{
+     width:100%;
+     height:auto;
+}
+
+.sidebar-cont ul{
+    margin:0px;
+    padding:0px;
+    list-style:none;
+}
+
+.sidebar-cont ul li a{
+     display:block;
+     font-size:20px;
+     font-weight:bold;
+     color:white;
+     padding:10px 15px;
+     text-decoration:none;
+     margin-bottom: 10px; 
+}
+
+.sidebar-cont ul li a:hover, #sidebar-cont ul li:hover a{
+     background: rgba(255,255,255,0.5);
+}
+
+
+.content {
+	padding-top: 10px;
+     float: right;
+     width: 79%;
+     padding-bottom: 60px;   
+/*     border:solid 2px blue;*/
+}
+
+.main-content{
+    background: #0047ab;
+    height: 100%;
+    margin: 0 10px 0 0;
+}
+ 
+.goods {
+    width:100%;
+    float: left;
+    border-spacing: 10px 10px; 
+}
+
+.goods tr{
+    background:linear-gradient(90deg, #002633, #00bfff);
+}
+
+.goods tr:hover td {
+    padding: 10px;
+    font-size:16px;
+    color: white;
+    border: solid 2px yellow;
+}
+
+.goods tr td, .goods tr th{
+    padding: 10px;
+    font-size:16px;
+    color: white;
+    font-weight: normal;
+    border: 2px solid transparent;
+}
+
+
+.adminMenu ul li a{
+     display:block;
+     font-size:13px;
+     font-weight:bold;
+     color:white;
+     padding:10px 15px;
+     background: linear-gradient(180deg, #2c3337, #007fff);
+     text-decoration:none;
+     margin-bottom: 10px; 
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.login-form {
+  position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.login-form input {
+  outline: 0;
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.login-form button {
+  text-transform: uppercase;
+  outline: 0;
+  background: #007dd1;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.login-form button:hover,.form button:active,.form button:focus {
+  background: #006ebd;
+}
+
+.form-header {
+    font-size:24px;
+    color: white;
+}
+
+.input-div {
+    clear: both;
+    padding: 8px 0;
+    overflow: hidden;
+}
+
+.input-form {
+    padding: 20px;
+    font-family: Arial;
+    font-size: 13px;
+    display: inline-block;
+    color: white;
+}
+
+.input-label {
+    padding-top: 6px;
+    line-height: 18px;
+    float: left;
+    color: #b6daff;
+    margin-right: 7px;
+    width: 120px;
+}
+
+.input-div input, .input-div select, .input-div textarea {
+    display: inline-block;
+    width: 250px;
+    height: 18px;
+    padding: 4px;
+    line-height: 18px;
+    color: #efefef;
+    border: 1px solid #a4a4a4;
+  background-color: #202223;
+  border-radius: 4px;
+}
+
+.input-div select {
+    width: 200px;
+    height: auto;
+}
+
+.input-div textarea {
+    height: auto;
+}
+
+.input-div button {
+    display: inline-block;
+    width: auto;
+    height: auto;
+  background-color: #3d6182;
+    background-repeat: repeat-x;
+    background-color: linear-gradient(top, #8db7dd, #3d6182);
+    border: 1px solid #19252f;
+    padding: 8px 17px 9px;
+    color: white;
+    cursor: pointer;
+  border-radius: 4px;
+    transition: 0.1s linear all;
+}
+
+.input-div-but button {
+  margin-left: 120px; 
+   display: inline-block;
+    width: auto;
+    height: auto;
+  background-color: #3d6182;
+    background-repeat: repeat-x;
+    background-color: linear-gradient(top, #8db7dd, #3d6182);
+    border: 1px solid #19252f;
+    padding: 8px 17px 9px;
+    color: white;
+    cursor: pointer;
+  border-radius: 4px;
+    transition: 0.1s linear all;
+}
+
+
+.input-div button:hover {
+    background-position: 0 -15px;
+}
+
+.input-div input[type=file] {
+  background-color: #37393c;
+    height: 27px;
+    border: none;
+}
+
+
+
+body {
+  background-color: #37393c;
+}
+
+.center-form-page{
+  width: 70%;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: left;
+}
+
+.form-group{
+  margin-left: 150px;
+}
+
+.head-text{
+  color: white;
+  font-size: 24px;
+  margin-left: 50px;
+}
+
+.label1{
+  color: white;
+}
+
+.txt-area {
+  margin-left: 30px; 
+}
